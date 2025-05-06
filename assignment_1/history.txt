@@ -1,0 +1,138 @@
+    1  cd /fs/lustre/scratch/nijiang
+    2  cd /fs/lustre/scratch/
+    3  ls
+    4  cd ./nijiang
+    5  EXIT
+    6  exit
+    7  ssh prawn
+    8  ssh nijiang@gw.cita.utoronto.ca
+    9  /cita/local/bin/passwd
+   10  ssh prawn
+   11  ssh mussel
+   12  ssh cosmo4.cita.utoronto.ca
+   13   cd /fs/lustre/scratch/nijiang
+   14  vim CTA200_2025
+   15  ls
+   16  cd prawn
+   17  ssh prawn
+   18  ssh /fs/lustre/scratch/nijiang
+   19  /fs/lustre/scratch/nijiang
+   20  cd /fs/lustre/scratch/nijiang
+   21  vim CTA200_2025
+   22  su nijiang
+   23  exit
+   24  cd prawn
+   25  ssh prawn
+   26  ssh /fs/lustre/scratch/nijiang
+   27  cd /fs/lustre/scratch/nijiang
+   28  ls
+   29  vim CT200_2025
+   30  vim assignment_1
+   31  vim README.md
+   32  vi # CTA200 2025
+   33  find Hello_world.c
+   34  ssh murray@gw.cita.utoronto.ca
+   35  cd /home/murray
+   36  ls
+   37  find Hello_world.c
+   38  find Hello_world.py
+   39  find -name Hello_world.c
+   40  ls
+   41  cd Papers
+   42  cd tmp/
+   43  ls
+   44  cd ..
+   45  ls
+   46  find -name Hello_world.py
+   47  find -name Hello_world.c -print
+   48  find -name 'Hello_world.py' -print
+   49  pwd
+   50  find -name 'Hello_world.c' -print 2>/dev/null
+   51  cp ./Papers/tmp/Hello_world.c /fs/lustre/scratch/nijiang/CTA200_2025/assignment_1
+   52  cd /fs/lustre/scratch/nijiang
+   53  ls
+   54  mkdir CTA200_2025
+   55  pwd
+   56  ls
+   57  cd CTA200_2025
+   58  mkdir assignment_1
+   59  vim README.md
+   60  ls
+   61  cd /home/murray
+   62  cp ./Papers/tmp/Hello_world.c /fs/lustre/scratch/nijiang/CTA200_2025/assignment_1
+   63  find -name 'Hello_world.py' -print 2>/dev/null
+   64  cp ./tmp/Hello_world.py /fs/lustre/scratch/nijiang/CTA200_2025/assignment_1
+   65  mv Hello_world_your-last-name.c/py
+   66  mc --help
+   67  mv --help
+   68  mv Hello_world.c Hello_world-jiang.c
+   69  ls
+   70  pwd
+   71  cd /fs/lustre/scratch/nijiang
+   72  cd /fs/lustre/scratch/nijiang/CTA200_2025/assignment_1
+   73  cd
+   74  pwd
+   75  lst
+   76  mv Hello_world.c Hello_world-jiang.c
+   77  pwd
+   78  cd /fs/lustre/scratch/nijiang/CTA200_2025/assignment_1
+   79  pwd
+   80  mv Hello_world.c Hello_world-jiang.c
+   81  mv Hello_world.py Hello_world-jiang.py
+   82  gcc --help
+   83  gcc Hello_world.x
+   84  gcc Hello_world-jiang.c
+   85  gcc hello_world-jiang.py
+   86  gcc Hello_world-jiang.py
+   87  ls
+   88  gcc Hello_world-jiang.py
+   89  ./Hello_world-jiang.c
+   90  ls
+   91  pwd
+   92  gcc Hello_world-jiang.c
+   93  ls
+   94  mv a.out Hello_world.x
+   95  ./ Hello_world.x
+   96  ./ Hello_world-jiang.c
+   97  ./Hello_world.x
+   98  vim Hello_world.x
+   99  vim Hello_world-jiang.c
+  100  vi Hello_world-jiang.c
+  101  vi Hello_world-jiang.py
+  102  ./Hello_world-jiang.c
+  103  ./Hello_world.x
+  104  vi Hello_world.x
+  105  gcc Hello_world-jiang.c
+  106  ls
+  107  mv a.out Hello_world.x
+  108  ./Hello_world.x
+  109  ./Hello_world-jiang.py
+  110  python
+  111  python Hello_world-jiang.py
+  112  module avail python
+  113  module load python/3.10.2
+  114  python Hello_world-jiang.py
+  115  Hello_world.x > output_c.txt
+  116  ./Hello_world.x
+  117  ./Hello_world.x > output_c.txt
+  118  ls
+  119  python Hello_world-jiang.py > output_python.txt
+  120  ls
+  121  history 
+  122  history > history.txt
+  123  ls
+  124  history.txt
+  125  cat history.txt
+  126  ls
+  127  cd ls
+  128  cd /fs/lustre/scratch/nijiang/CTA200_2025/assignment_1
+  129  ls
+  130  cd ls
+  131  cd /
+  132  ls
+  133  find history.txt
+  134  cd /fs/lustre/scratch/nijiang/CTA200_2025/assignment_1
+  135  ls
+  136   ./Hello_world.x
+  137  ls
+  138  history > history.txt
