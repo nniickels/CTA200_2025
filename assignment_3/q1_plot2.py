@@ -5,15 +5,16 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def iterate_q1_plot2(N=500, z=0, max_iter=30) -> None :
+def iterate_q1_plot2(N=500, z=0, max_iter=30) -> np.array :
     """ Iteration code for question 1 plot 2. 
 
     Parameters:
-    - N, int, number of x and y 
-    - z, int, initial value of z (z0)
-    - max_iter, int, maximum iterations 
+    - N: int, number of x and y 
+    - z: int, initial value of z (z0)
+    - max_iter: int, maximum iterations 
 
-    Returns: None
+    Returns: 
+    - count: NxN int array, iteration count for when points escape
 
     """
 
@@ -34,4 +35,7 @@ def iterate_q1_plot2(N=500, z=0, max_iter=30) -> None :
         just_div = (np.abs(z) > 2) & (~diverged)  # Just diverged array will hold points that diverge for the first time
         count[just_div] = i  # Record iteration count when point escapes
         diverged[just_div] = True  # Record that point diverged 
+
+    return count
+
 
