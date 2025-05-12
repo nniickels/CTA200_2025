@@ -14,7 +14,7 @@ def iterate_q1_plot1(N=500, z=0, max_iter=30) -> np.array :
     - max_iter: int, maximum iterations 
 
     Returns: 
-    - diverged: np.array, boolean array that tells which points escape
+    - diverged: np.array, a boolean array that tells which points escape
 
     """
 
