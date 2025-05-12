@@ -14,7 +14,7 @@ def iterate_q1_plot2(N=500, z=0, max_iter=30) -> np.array :
     - max_iter: int, maximum iterations 
 
     Returns: 
-    - count: NxN int array, iteration count for when points escape
+    - count: np.array, NxN int array of iteration count for when points escape
 
     """
 
@@ -37,5 +37,4 @@ def iterate_q1_plot2(N=500, z=0, max_iter=30) -> np.array :
         diverged[just_div] = True  # Record that point diverged 
 
     return count
-
 
