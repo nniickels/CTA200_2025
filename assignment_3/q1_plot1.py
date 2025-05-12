@@ -5,15 +5,16 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def iterate_q1_plot1(N=500, z=0, max_iter=30) -> None :
+def iterate_q1_plot1(N=500, z=0, max_iter=30) -> np.array :
     """ Iteration code for question 1 plot 1. 
 
     Parameters:
-    - N, int, number of x and y 
-    - z, int, initial value of z (z0)
-    - max_iter, int, maximum iterations 
+    - N: int, number of x and y 
+    - z: int, initial value of z (z0)
+    - max_iter: int, maximum iterations 
 
-    Returns: None
+    Returns: 
+    - diverged: boolean array that tells which points escape
 
     """
 
@@ -30,3 +31,5 @@ def iterate_q1_plot1(N=500, z=0, max_iter=30) -> None :
             z = z**2 + c  
         diverged |= (np.abs(z) > 2)  # Switches points in diverged to True if np.abs(z) > 2 since 2 is escape radius
 
+    return diverged 
+ 
